@@ -24,8 +24,8 @@ class Student {
 
 public class Demo {
     public static void main(String[] args) {
-        Student s1 = new Student();              // calls default constructor
-        Student s2 = new Student("Anu", 20);     // calls parameterized constructor
+        Student s1 = new Student();              
+        Student s2 = new Student("Anu", 20);      
 
         s1.display();
         s2.display();
